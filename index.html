@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz Internship - Level 1 Task 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. नेविगेशन मेनू (Navigation Menu) -->
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- 2. साधारण वेबपेज कंटेंट (Heading, Paragraph, Image) -->
+    <div class="content-section" id="home">
+        <h1>Welcome to My First Webpage</h1>
+        <p>This is a simple webpage created for the Cognifyz Technologies Web Development Internship. We are learning how to structure a page using HTML and style it beautifully using CSS.</p>
+        
+        <!-- इमेज यहाँ लोड होगी -->
+        <img src="photo.kk" alt="Coding Image" class="web-image">
+    </div>
+
+    <!-- 3. बेसिक फॉर्म (Basic Form) -->
+    <div class="form-section" id="contact">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form class="sample-form">
+            <input type="email" placeholder="Enter your email address" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <!-- फॉर्म के नीचे इस नए JavaScript वाले सेक्शन को जोड़ें -->
+    <div class="js-section">
+        <h2>JavaScript Tasks</h2>
+        
+        <!-- बटन कलर चेंज टास्क -->
+        <button id="colorBtn" onclick="changeButtonColor()" style="margin: 10px; padding: 12px; background-color: #007bff; color: white; border: none; border-radius: 4px; font-weight: bold;">
+            Click Me to Change Color
+        </button>
+
+        <!-- अलर्ट बॉक्स टास्क -->
+        <button onclick="showGreeting()" style="margin: 10px; padding: 12px; background-color: #17a2b8; color: white; border: none; border-radius: 4px; font-weight: bold;">
+            Show Greeting Alert
+        </button>
+
+        <!-- कैलकुलेटर टास्क -->
+        <div class="calculator" style="margin-top: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background: #fff;">
+            <h3>Simple Calculator</h3>
+            <input type="number" id="num1" placeholder="First Number" style="padding: 8px; margin: 5px; width: 80%;">
+            <input type="number" id="num2" placeholder="Second Number" style="padding: 8px; margin: 5px; width: 80%;">
+            <br>
+            <button onclick="calculateSum()" style="padding: 10px 20px; margin-top: 10px; background-color: #28a745; color: white; border: none; border-radius: 4px; font-weight: bold;">
+                Add Numbers
+            </button>
+            <p id="calcResult" style="margin-top: 15px; font-weight: bold; font-size: 18px;"></p>
+        </div>
+    </div>
+
+    <!-- फॉर्म के नीचे इस नए JavaScript वाले सेक्शन को जोड़ें -->
+    <div class="js-section">
+        <h2>JavaScript Tasks</h2>
+        
+        <!-- बटन कलर चेंज टास्क -->
+        <button id="colorBtn" onclick="changeButtonColor()" style="margin: 10px; padding: 12px; background-color: #007bff; color: white; border: none; border-radius: 4px; font-weight: bold;">
+            Click Me to Change Color
+        </button>
+
+        <!-- अलर्ट बॉक्स टास्क -->
+        <button onclick="showGreeting()" style="margin: 10px; padding: 12px; background-color: #17a2b8; color: white; border: none; border-radius: 4px; font-weight: bold;">
+            Show Greeting Alert
+        </button>
+
+        <!-- कैलकुलेटर टास्क -->
+        <div class="calculator" style="margin-top: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background: #fff;">
+            <h3>Simple Calculator</h3>
+            <input type="number" id="num1" placeholder="First Number" style="padding: 8px; margin: 5px; width: 80%;">
+            <input type="number" id="num2" placeholder="Second Number" style="padding: 8px; margin: 5px; width: 80%;">
+            <br>
+            <button onclick="calculateSum()" style="padding: 10px 20px; margin-top: 10px; background-color: #28a745; color: white; border: none; border-radius: 4px; font-weight: bold;">
+                Add Numbers
+            </button>
+            <p id="calcResult" style="margin-top: 15px; font-weight: bold; font-size: 18px;"></p>
+        </div>
+    </div>
+
+    <!-- सबसे नीचे </body> से पहले JavaScript फाइल को लिंक करें -->
+    <script src="script.js"></script>
+</body>
+</html>
+
