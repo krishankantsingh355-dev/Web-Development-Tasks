@@ -1,0 +1,71 @@
+/* ग्रिड बॉक्स को थोड़ा सा कस्टमाइज करने के लिए */
+.grid-box {
+    font-weight: bold;
+    color: #495057;
+    transition: transform 0.2s;
+}
+
+.grid-box:hover {
+    transform: translateY(-5px);
+    border-color: #007bff !important;
+}
+
+/* कार्ड इमेज की सेटिंग */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+/* ग्रिड बॉक्स कस्टमाइजेशन */
+.grid-box {
+    font-weight: bold;
+    color: #495057;
+    transition: transform 0.2s;
+}
+
+.grid-box:hover {
+    transform: translateY(-5px);
+    border-color: #007bff !important;
+}
+
+/* कार्ड इमेज सेटिंग */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* CSS Media Queries (टास्क 2 के लिए रिस्पॉन्सिव डिजाइन) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px; /* मोबाइल स्क्रीन पर हेडिंग का साइज छोटा हो जाएगा */
+    }
+    .grid-box {
+        background-color: #e9ecef !important; /* मोबाइल पर ग्रिड का बैकग्राउंड बदल जाएगा */
+    }
+}
+/* ग्रिड बॉक्स कस्टमाइजेशन */
+.grid-box {
+    font-weight: bold;
+    color: #495057;
+    transition: transform 0.2s;
+}
+
+.grid-box:hover {
+    transform: translateY(-5px);
+    border-color: #007bff !important;
+}
+
+/* कार्ड इमेज सेटिंग */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* CSS Media Queries (टास्क 2 के लिए रिस्पॉन्सिव डिजाइन) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px; /* मोबाइल स्क्रीन पर हेडिंग का साइज छोटा हो जाएगा */
+    }
+    .grid-box {
+        background-color: #e9ecef !important; /* मोबाइल पर ग्रिड का बैकग्राउंड बदल जाएगा */
+    }
+}

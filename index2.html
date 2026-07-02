@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz Internship - Level 2 Complete</title>
+    <!-- Bootstrap CSS की ऑनलाइन लिंक -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body class="bg-light">
+
+    <!-- टास्क 2: रिस्पॉन्सिव हैमबर्गर नेविगेशन मेनू -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-primary font-weight-bold" href="#">Cognifyz Tech</a>
+            <!-- यह बटन मोबाइल पर तीन लाइन (हैमबर्गर) बनकर दिखेगा -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-toggle="target" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- मेनू के लिंक्स -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Tasks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- मुख्य कंटेनर -->
+    <div class="container my-5">
+        <h1 class="text-center text-primary mb-4">Level 2 Complete Tasks</h1>
+        <p class="text-center text-muted mb-5">Responsive Grid, Card Component, and Mobile Hamburger Menu.</p>
+
+        <!-- टास्क 1: रिस्पॉन्सिव ग्रिड लेआउट -->
+        <h3 class="mb-3">1. Responsive Grid Layout</h3>
+        <div class="row g-4 text-center mb-5">
+            <div class="col-12 col-md-4">
+                <div class="p-3 bg-white border rounded shadow-sm grid-box">Column 1 (Full width on mobile, 1/3 on desktop)</div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="p-3 bg-white border rounded shadow-sm grid-box">Column 2 (Full width on mobile, 1/3 on desktop)</div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="p-3 bg-white border rounded shadow-sm grid-box">Column 3 (Full width on mobile, 1/3 on desktop)</div>
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+        <!-- टास्क 1 (बोनस पार्ट): रिस्पॉन्सिव कार्ड कॉम्पोनेंट -->
+        <h3 class="mb-3">2. Responsive Card Component</h3>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-md-4">
+                <div class="card shadow">
+                    <!-- img1.jpg की जगह अपनी इमेज का नाम रखें -->
+                    <img src="../kk.jpeg" class="card-img-top" alt="Card Technology Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development Internship</h5>
+                        <p class="card-text">Building responsive layouts is an essential skill for modern front-end developers. Frameworks like Bootstrap make it incredibly fast and efficient.</p>
+                        <a href="#" class="btn btn-primary w-100">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS की ऑनलाइन लिंक (यह हैमबर्गर मेनू को खोलने/बंद करने के लिए ज़रूरी है) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
